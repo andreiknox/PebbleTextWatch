@@ -2,42 +2,42 @@
 #include "string.h"
 
 static const char* const ONES[] = {
-  "o'clock",
-  "one",
-  "two",
-  "three",
-  "four",
-  "five",
-  "six",
-  "seven",
-  "eight",
-  "nine"
+  "fix",
+  "unu",
+  "două",
+  "trei",
+  "patru",
+  "cinci",
+  "şase",
+  "şapte",
+  "opt",
+  "nouă"
 };
 
 static const char* const TEENS[] ={
   "",
-  "eleven",
-  "twelve",
-  "thirteen",
-  "fourteen",
-  "fifteen",
-  "sixteen",
-  "seventeen",
-  "eightteen",
-  "nineteen"
+  "unşpe",
+  "doişpe",
+  "treişpe",
+  "paişpe",
+  "cinşpe",
+  "şaişpe",
+  "şaptişpe",
+  "optişpe",
+  "nouăşpe"
 };
 
 static const char* const TENS[] = {
   "",
-  "ten",
-  "twenty",
-  "thirty",
-  "forty",
-  "fifty",
-  "sixty",
-  "seventy",
-  "eighty",
-  "ninety"
+  "zece",
+  "douăzeci",
+  "treizeci",
+  "patruzeci",
+  "cincizeci",
+  "şaizeci",
+  "şaptezeci",
+  "optzeci",
+  "nouăzeci"
 };
 
 static size_t append_number(char* words, int num) {
